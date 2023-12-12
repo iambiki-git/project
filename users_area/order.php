@@ -29,7 +29,7 @@ if (isset($_SESSION['cart']) && is_array($_SESSION['cart'])) {
 $total_price = $subtotal + $delivery_charge;
 
 // Generate a random invoice number
-$invoice_number = rand(100000, 999999);
+$invoice_number = rand(10000, 99999);
 
 $count_products = count($_SESSION['cart']);
 

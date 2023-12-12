@@ -73,11 +73,11 @@
             </div>
             <div class="form-outline my-4 text-center w-50 m-auto">
                 <select name="payment_mode" class="form-select w-50 mt-4 border-0 mysele">
-                    <option disabled selected>Select Payment Mode</option>
+                    <!-- <option disabled selected>Select Payment Mode</option> -->
+                    <option>Cash On Delivery</option>
                     <option>Khalti</option>
                     <option>eSewa</option>
                     <option>Net Banking</option>
-                    <option>Cash On Delivery</option>
                 </select>                
             </div>
             <div class="form-outline my-4 text-center w-50 m-auto">
